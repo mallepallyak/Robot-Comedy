@@ -105,7 +105,7 @@ Keep the same downloaded model for both experimental conditions.
 
 ## 4. Configure the Milo connection
 
-Power on Milo and establish the network connection used by your lab. Confirm that Milo’s command service is available on TCP port `4001`.
+Power on Milo and ensure network connection.
 
 Open:
 
@@ -196,7 +196,6 @@ Type `quit` to end the practice run. **Restart the Python script before collecti
 
 ## 7. Run an experiment session
 
-The following is an operator workflow. Participant prompts, session length, condition order, and questionnaires should follow your study protocol.
 
 ### Before the participant starts
 
@@ -248,7 +247,7 @@ Start the appropriate Python script again. Conversation history and personalized
 
 Ollama and the Java bridge can remain running between sessions.
 
-If participants experience both conditions, follow the study’s assigned order and restart Python between conditions.
+Follow the study’s assigned order and restart Python between conditions.
 
 ### Shut down
 
