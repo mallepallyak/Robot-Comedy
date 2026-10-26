@@ -276,6 +276,4 @@ Follow the study’s assigned order and restart Python between conditions.
 
 Both conditions retain conversation history during a running session. The personalized condition also accumulates extracted user context.
 
-Responses vary between runs. For reproducibility, record the repository revision, model ID from `ollama list`, software versions, session length, and condition order. Avoid updating the model or changing prompts during data collection.
-
-Internet access is needed to download dependencies and models, and during the experiment for Whisper transcription. Participant audio is sent to OpenAI for transcription; generated conversation uses the local Ollama model. Account for this data flow in the study’s participant information and data-handling procedure.
+Responses vary between runs. For reproducibility, record the repository revision, model ID from `ollama list`, software versions, session length, and condition order.
