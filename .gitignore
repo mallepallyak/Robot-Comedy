@@ -3,3 +3,12 @@
 
 # Ignore audio files
 *.wav
+# Local secrets (commit .env.example only)
+.env
+.env.*
+!.env.example
+
+# Python local environment and cache
+.venv/
+__pycache__/
+*.pyc
